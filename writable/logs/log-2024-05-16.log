@@ -1,0 +1,698 @@
+ERROR - 2024-05-16 04:38:36 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-05-16 04:40:01 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-05-16 04:40:33 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: SQLite3 error: Unable to open database: unable to open database file in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:92
+Stack trace:
+#0 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(575): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SELECT "NAME" F...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2024-05-16 17:35:57 --> Undefined variable $categorys
+in APPPATH\Views\index.php on line 50.
+ 1 APPPATH\Views\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorys', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(12): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:41:43 --> Trying to access array offset on null
+in APPPATH\Views\index.php on line 76.
+ 1 APPPATH\Views\index.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php', 76)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:41:48 --> Trying to access array offset on null
+in APPPATH\Views\index.php on line 76.
+ 1 APPPATH\Views\index.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php', 76)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:45:12 --> Object of class App\Models\CategoryModel could not be converted to string
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:47:47 --> Undefined array key "cate_name"
+in APPPATH\Views\index.php on line 78.
+ 1 APPPATH\Views\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cate_name"', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php', 78)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+ERROR - 2024-05-16 17:55:46 --> ErrorException: SQLite3::query(): Unable to prepare statement: no such table: category3 in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\hono\\Documen...', 146)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT * FROM c...')
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT * FROM c...')
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Model.php(867): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Models\CategoryModel.php(15): CodeIgniter\Model->__call('query', Array)
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Controllers\Home.php(16): App\Models\CategoryModel->getAll()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documen...')
+#12 {main}
+CRITICAL - 2024-05-16 17:55:46 --> SQLite3::query(): Unable to prepare statement: no such table: category3
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Model.php(867): CodeIgniter\Database\BaseConnection->query('SELECT * FROM category3')
+ 2 APPPATH\Models\CategoryModel.php(15): CodeIgniter\Model->__call('query', [...])
+ 3 APPPATH\Controllers\Home.php(16): App\Models\CategoryModel->getAll()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:55:54 --> Cannot use object of type SQLite3 as array
+in APPPATH\Views\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:55:55 --> Cannot use object of type SQLite3 as array
+in APPPATH\Views\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:56:50 --> Cannot use object of type SQLite3 as array
+in APPPATH\Views\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:56:51 --> Cannot use object of type SQLite3 as array
+in APPPATH\Views\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:57:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:57:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:58:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:58:17 --> Cannot use object of type stdClass as array
+in APPPATH\Views\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 17:58:39 --> Cannot use object of type stdClass as array
+in APPPATH\Views\index.php on line 52.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(17): view('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:01:25 --> Undefined array key "desc"
+in APPPATH\Views\index.php on line 77.
+ 1 APPPATH\Views\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "desc"', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php', 77)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:01:25 --> Undefined array key "desc"
+in APPPATH\Views\index.php on line 77.
+ 1 APPPATH\Views\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "desc"', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php', 77)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+ERROR - 2024-05-16 18:02:22 --> ErrorException: SQLite3::query(): Unable to prepare statement: no such column: product in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\hono\\Documen...', 146)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT product,...')
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT product,...')
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT product,...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Models\ProductModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT product,...')
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Controllers\Home.php(18): App\Models\ProductModel->getAll()
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documen...')
+#11 {main}
+CRITICAL - 2024-05-16 18:02:22 --> SQLite3::query(): Unable to prepare statement: no such column: product
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ProductModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT product,rowid, product.* FROM product;')
+ 2 APPPATH\Controllers\Home.php(18): App\Models\ProductModel->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+ERROR - 2024-05-16 18:02:23 --> ErrorException: SQLite3::query(): Unable to prepare statement: no such column: product in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\hono\\Documen...', 146)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(146): SQLite3->query('SELECT product,...')
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT product,...')
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT product,...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Models\ProductModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT product,...')
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Controllers\Home.php(18): App\Models\ProductModel->getAll()
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documen...')
+#11 {main}
+CRITICAL - 2024-05-16 18:02:23 --> SQLite3::query(): Unable to prepare statement: no such column: product
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ProductModel.php(15): CodeIgniter\Database\BaseConnection->query('SELECT product,rowid, product.* FROM product;')
+ 2 APPPATH\Controllers\Home.php(18): App\Models\ProductModel->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:10:45 --> Undefined property: App\Controllers\Home::$uri
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$uri', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:13:08 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+in APPPATH\Controllers\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:13:09 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+in APPPATH\Controllers\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:18:41 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:18:42 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:18:49 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:18:50 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:19:01 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:19:01 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:19:02 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:19:02 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:27:01 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:29:29 --> Undefined array key "name_product"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_product"', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:29:30 --> Undefined array key "name_product"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_product"', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:30:11 --> Undefined array key "name_product"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_product"', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:30:13 --> Undefined array key "name_product"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_product"', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:35:31 --> preg_match(): Compilation failed: missing closing parenthesis at offset 19
+in SYSTEMPATH\Router\Router.php on line 424.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 19', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\system\\Router\\Router.php', 424)
+ 2 SYSTEMPATH\Router\Router.php(424): preg_match('#^search/([^/]+&gt;$#u', 'static/img/icon.png', [])
+ 3 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('static/img/icon.png')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('static/img/icon.png')
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:35:31 --> preg_match(): Compilation failed: missing closing parenthesis at offset 19
+in SYSTEMPATH\Router\Router.php on line 424.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 19', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\system\\Router\\Router.php', 424)
+ 2 SYSTEMPATH\Router\Router.php(424): preg_match('#^search/([^/]+&gt;$#u', 'static/img/bag.svg', [])
+ 3 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('static/img/bag.svg')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('static/img/bag.svg')
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:35:32 --> preg_match(): Compilation failed: missing closing parenthesis at offset 19
+in SYSTEMPATH\Router\Router.php on line 424.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 19', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\system\\Router\\Router.php', 424)
+ 2 SYSTEMPATH\Router\Router.php(424): preg_match('#^search/([^/]+&gt;$#u', 'search', [])
+ 3 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('search')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('search')
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:35:49 --> preg_match(): Compilation failed: missing closing parenthesis at offset 19
+in SYSTEMPATH\Router\Router.php on line 424.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 19', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\system\\Router\\Router.php', 424)
+ 2 SYSTEMPATH\Router\Router.php(424): preg_match('#^search/([^/]+&gt;$#u', 'search/s', [])
+ 3 SYSTEMPATH\Router\Router.php(186): CodeIgniter\Router\Router->checkRoutes('search/s')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('search/s')
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:36:13 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:36:46 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:36:49 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:37:06 --> Too few arguments to function App\Controllers\Home::search(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+ERROR - 2024-05-16 18:46:26 --> ErrorException: SQLite3::query(): Unable to prepare statement: near &quot;JOIN&quot;: syntax error in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\hono\\Documen...', 146)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(146): SQLite3->query('\n        SELECT...')
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('\n        SELECT...')
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Models\ProductModel.php(27): CodeIgniter\Database\BaseConnection->query('\n        SELECT...', 'caderno')
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Controllers\Home.php(32): App\Models\ProductModel->getByName('caderno')
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(942): App\Controllers\Home->search()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documen...')
+#11 {main}
+CRITICAL - 2024-05-16 18:46:26 --> SQLite3::query(): Unable to prepare statement: near &quot;JOIN&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ProductModel.php(27): CodeIgniter\Database\BaseConnection->query('
+        SELECT category.name AS cate_name, product.rowid, product.* 
+        FROM product WHERE product.name = ?
+        JOIN category ON 
+        product.cate_id = category.rowid;
+        ', 'caderno')
+ 2 APPPATH\Controllers\Home.php(32): App\Models\ProductModel->getByName('caderno')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+ERROR - 2024-05-16 18:46:55 --> ErrorException: SQLite3::query(): Unable to prepare statement: no such column: category.name in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\hono\\Documen...', 146)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(146): SQLite3->query('\n        SELECT...')
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('\n        SELECT...')
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Models\ProductModel.php(27): CodeIgniter\Database\BaseConnection->query('\n        SELECT...', 'caderno')
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Controllers\Home.php(32): App\Models\ProductModel->getByName('caderno')
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(942): App\Controllers\Home->search()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documen...')
+#11 {main}
+CRITICAL - 2024-05-16 18:46:55 --> SQLite3::query(): Unable to prepare statement: no such column: category.name
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ProductModel.php(27): CodeIgniter\Database\BaseConnection->query('
+        SELECT category.name AS cate_name, product.rowid, product.* 
+        FROM product WHERE product.name = ?;
+        ', 'caderno')
+ 2 APPPATH\Controllers\Home.php(32): App\Models\ProductModel->getByName('caderno')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+ERROR - 2024-05-16 18:46:56 --> ErrorException: SQLite3::query(): Unable to prepare statement: no such column: category.name in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\hono\\Documen...', 146)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(146): SQLite3->query('\n        SELECT...')
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('\n        SELECT...')
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Models\ProductModel.php(27): CodeIgniter\Database\BaseConnection->query('\n        SELECT...', 'caderno')
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Controllers\Home.php(32): App\Models\ProductModel->getByName('caderno')
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(942): App\Controllers\Home->search()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documen...')
+#11 {main}
+CRITICAL - 2024-05-16 18:46:56 --> SQLite3::query(): Unable to prepare statement: no such column: category.name
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ProductModel.php(27): CodeIgniter\Database\BaseConnection->query('
+        SELECT category.name AS cate_name, product.rowid, product.* 
+        FROM product WHERE product.name = ?;
+        ', 'caderno')
+ 2 APPPATH\Controllers\Home.php(32): App\Models\ProductModel->getByName('caderno')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 18:47:18 --> Undefined array key "cate_name"
+in APPPATH\Views\index.php on line 78.
+ 1 APPPATH\Views\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cate_name"', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php', 78)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+ERROR - 2024-05-16 18:47:54 --> ErrorException: SQLite3::query(): Unable to prepare statement: near &quot;JOIN&quot;: syntax error in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\hono\\Documen...', 146)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(146): SQLite3->query('\n        SELECT...')
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('\n        SELECT...')
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Models\ProductModel.php(27): CodeIgniter\Database\BaseConnection->query('\n        SELECT...', 'caderno')
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Controllers\Home.php(32): App\Models\ProductModel->getByName('caderno')
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(942): App\Controllers\Home->search()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documen...')
+#11 {main}
+CRITICAL - 2024-05-16 18:47:54 --> SQLite3::query(): Unable to prepare statement: near &quot;JOIN&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ProductModel.php(27): CodeIgniter\Database\BaseConnection->query('
+        SELECT category.name AS cate_name, product.rowid, product.* 
+        FROM product WHERE product.name = ?
+        JOIN category ON 
+        product.cate_id = category.rowid;
+        ', 'caderno')
+ 2 APPPATH\Controllers\Home.php(32): App\Models\ProductModel->getByName('caderno')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+ERROR - 2024-05-16 18:48:00 --> ErrorException: SQLite3::query(): Unable to prepare statement: near &quot;JOIN&quot;: syntax error in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', 'D:\\hono\\Documen...', 146)
+#1 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\SQLite3\Connection.php(146): SQLite3->query('\n        SELECT...')
+#2 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('\n        SELECT...')
+#3 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\n        SELECT...')
+#4 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Models\ProductModel.php(27): CodeIgniter\Database\BaseConnection->query('\n        SELECT...', 'caderno intelig...')
+#5 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\app\Controllers\Home.php(32): App\Models\ProductModel->getByName('caderno intelig...')
+#6 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(942): App\Controllers\Home->search()
+#7 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documen...')
+#11 {main}
+CRITICAL - 2024-05-16 18:48:00 --> SQLite3::query(): Unable to prepare statement: near &quot;JOIN&quot;: syntax error
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ProductModel.php(27): CodeIgniter\Database\BaseConnection->query('
+        SELECT category.name AS cate_name, product.rowid, product.* 
+        FROM product WHERE product.name = ?
+        JOIN category ON 
+        product.cate_id = category.rowid;
+        ', 'caderno inteligente')
+ 2 APPPATH\Controllers\Home.php(32): App\Models\ProductModel->getByName('caderno inteligente')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 20:33:42 --> Too few arguments to function App\Controllers\Home::test(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->test()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 20:34:07 --> Call to undefined method App\Controllers\Home::segment()
+in APPPATH\Controllers\Home.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->test()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 20:34:09 --> Call to undefined method App\Controllers\Home::segment()
+in APPPATH\Controllers\Home.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->test()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 20:34:28 --> Undefined property: App\Controllers\Home::$uri
+in APPPATH\Controllers\Home.php on line 50.
+ 1 APPPATH\Controllers\Home.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$uri', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Controllers\\Home.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->test()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 20:35:15 --> Too few arguments to function App\Controllers\Home::test(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->test()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 20:35:16 --> Too few arguments to function App\Controllers\Home::test(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->test()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 20:35:23 --> Too few arguments to function App\Controllers\Home::test(), 0 passed in D:\hono\Documentos\dev\php\codeigniter\codeigniter4\system\CodeIgniter.php on line 942 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->test()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 21:04:58 --> Array to string conversion
+in APPPATH\Views\index.php on line 41.
+ 1 APPPATH\Views\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->searchByCategoryId('0')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
+CRITICAL - 2024-05-16 21:18:58 --> Undefined variable $categorys
+in APPPATH\Views\templates\nav.php on line 29.
+ 1 APPPATH\Views\templates\nav.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorys', 'D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\templates\\nav.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\app\\Views\\templates\\nav.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('templates/nav', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('templates/nav')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\hono\\Documentos\\dev\\php\\codeigniter\\codeigniter4\\public\\index.php')
